@@ -13,7 +13,7 @@ define(function() {
     remove : function(arr, item) {
 
     },
-    
+
     removeWithoutCopy : function(arr, item) {
 
     },
@@ -23,6 +23,14 @@ define(function() {
     },
 
     truncate : function(arr) {
+
+    },
+
+    prepend : function(arr, item) {
+
+    },
+
+    curtail : function(arr) {
 
     },
 
