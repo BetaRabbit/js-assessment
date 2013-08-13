@@ -24,7 +24,7 @@ define(function() {
     },
 
     isUSD : function(str) {
-      return (/^\$[1-9]\d{0,2}(?:,\d{3})*(?:\.\d[1-9])?$/).test(str);
+      return (/^\$\d{1,3}(?:,?\d{3})*(?:\.\d{2})?$/).test(str);
     }
   };
 });
